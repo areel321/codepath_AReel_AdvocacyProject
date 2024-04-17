@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Go Green Food Sourcing</title>
+  <link rel="icon" href="img/img3.png">
+  <!-- the content here will only show in the tab and in the metadata about the page -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="body">
+
+
+  <!--- Headings --->
+  <div class ="header-container">
+    <div id="header-item">
+      <h1>My Activism Project: Go Green Food Sourcing</h1>
+    </div>
+    <div id="header-item">
+      <h3>Find local sustainable food options!</h3>
+    </div>
+
+    <!-- Part 1: Navbar Starter Code -->
+
+    <div class="navbar">
+      <ul>
+        <li id = "header-item">
+          <img src= "img/img3.png" alt = "brocolli"width="20" height="20"/>
+        </li>
+        <li><a href="#header-item">Home</a></li>
+        <li><a href="#why">About</a></li>
+        <li><a href="#find-restaurants">Find Restaurants</a></li>
+        <li><a href="#find-grocery-stores">Find Grocery Stores</a></li>
+        <li><a href="#add-your-source">Add Your Source</a></li>
+        <li ><a id="theme-button">Toggle Dark Mode</a></li>
+    </div>
+  </div>
+
+
+
+
+    <!-- Part 2: Flexbox Layout Stater Code -->
+      
+
+  <!--- About --->
+  <div class = "revealable">
+  <h2 id="why">Why use Go Green?</h2>
+  <p id="p">Discovering valid sources for sustainable food shopping in your area, including organic resturants and grocery
+    stores that have locally growned or produced product, can be incredibly difficult. Go Green Food Sourcing is a
+    website to help with this, by providing links to reputable sustainable food shopping options. </p>
+  <iframe width="500" height="315" src="https://www.youtube.com/embed/vw0AMSXzrFQ?si=D4N7WgFNV405Tw4W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+
+  <!--- Data --->
+  <div class = "revealable">
+  <h3 id="data">Data about my topic</h3>
+  <h4>Add some charts + captions that illustrate my topic and why it is a problem </h4>
+
+  <ul>
+    <li> less than 15%</li>
+    <li> 15%-25%</li>
+    <li> 25%-35%</li>
+    <li> 35%-45%</li>
+    <li> >45%</li>
+  </ul>
+  </div>
+  <!--- Impact --->
+  <div class = "revealable">
+  <h2>Impact!</h2>
+
+  <img src="img/img1.jpg" alt="Photo of community members enjoying gardening on local farm" />
+  <h3 id="where">Where can this have lasting effects?</h3>
+  <p>Purchasing from grocery stores that have locally grown or produced products supports the local farms and
+    agriculture economy, which reduces food waste and contributes to a healthier community.
+  </p>
+
+  <h3>Why purchase organic or vegetarian?</h3>
+  <p>Dining in organic restaurants supports sustainable farming that's healthier for our environment. Having accessible
+    vegetarian options reduces carbon emissions created by the production of meat products.
+  </p>
+
+  <img src="img/img3.jpg" alt="Photo of local produce stand" />
+  <h3>What can I do?</h3>
+  <p>Start small! Find acessible ways to incorporate healthier local food options into your daily habits and diet.
+  </p>
+  </div>
+
+
+  <!--- News --->
+  <div class = "revealable">
+  <h2>Recent News</h2>
+
+  <a id="">
+    <article>
+      <h3></h3>
+      <p>coming soon!</p>
+    </article>
+  </a>
+  </div>
+
+  <!--- Find Restaurants --->
+  <div class = "revealable">
+  <h2>Find Restaurants</h2>
+
+  <a id="find-restaurants">
+    <article>
+      <h3></h3>
+      <p>coming soon!</p>
+    </article>
+  </a>
+  </div>
+
+  <!--- Find Grocery Stores --->
+  <div class = "revealable">
+  <h2>Find Grocery Stores</h2>
+
+  <a id="find-grocery-stores">
+    <article>
+      <h3></h3>
+      <p>coming soon!</p>
+    </article>
+  </a>
+  </div>
+
+  <!--- Add your source --->
+  <div class = "revealable">
+  <h2>Add Your Source</h2>
+
+  <a id="add-your-source">
+    <article>
+      <h3></h3>
+      <p>coming soon!</p>
+    </article>
+  </a>
+  </div>
+
+    <div class="petition revealable" id="petition">
+
+        <h2>Sign Our Petition 📢</h2>
+        <div class="petition-container">
+
+
+          <div class="petition-para">
+            <h3>Sign our petition to keep food green! Signing shows your support for local and organic farming to bring awareness to the topic.</h3>
+          </div>
+
+          <div class="signatures">
+            <p>🖊️ Oliver from Brooklyn supports this.</p>
+            <p>🖊️ Amy from Boston supports this.</p>
+            <p>🖊️ Teresa from LA supports this.</p>
+            <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+          </div>
+
+        </div>
+
+      <!--- Sign Petition Form --->
+      <form id="sign-petition" title="sign-petition">
+        <!-- inputs go here -->
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="town">Town:</label>
+        <input type="text" id="town">
+        <label for="email" >Email:</label>
+        <input type="text" id="email">
+        </form>
+
+       <!--- Sign Now Button --->
+      <button id="sign-now-button">Sign Now</button>
+        
+
+    </div>
+
+  <div class = "footer">
+    <p>Allison Reel</p>
+    <p>Codepath Intro Web Devopment</p>
+    <p>Spring 2024</p>
+  </div>
+
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <!-- text here -->
+        <p id="thanks-modal-content">placeholdertexthere</p>
+        <!-- button here (stretch feature) -->
+        <button class="header-button" id="close-modal">Close</button>
+      </div>
+      <!-- image here-->
+      <img id="modalImage" src="img/img4.png" alt=yay!>
+    </div>
+
+  </div>
+
+
+
+
+  
+  <script src="index.js"></script>
+  
+  </body>
+
+</html>
